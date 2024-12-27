@@ -1,0 +1,35 @@
+.navbar-nav .nav-item {
+  margin-right: 50px; /* Adjusted for better spacing */
+}
+
+.navbar-nav {
+  padding-left: 35%; /* Fine-tuned alignment for centering */
+}
+
+.navbar-nav .nav-link {
+  color: #A7001E; /* Base red for the links */
+  font-weight: 500; /* Slightly bold for emphasis */
+  text-decoration: none; /* Removes underline */
+  padding: 5px 10px; /* Adds padding for clickable area */
+  transition: color 0.3s ease, transform 0.2s ease; /* Smooth hover and scaling */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #C21839; /* Lighter red on hover */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+.navbar-nav .nav-link:active {
+  color: #870018; /* Darker red for active state */
+  font-weight: bold; /* Makes it visually distinct */
+}
+
+.navbar-nav .nav-link:focus {
+  outline: none; /* Removes default focus outline */
+  text-decoration: underline; /* Adds underline for accessibility focus */
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: rgba(167, 0, 30, 0.1); /* Transparent red background */
+  border-radius: 5px; /* Rounded edges for hover effect */
+}
